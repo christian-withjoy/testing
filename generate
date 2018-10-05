@@ -1,0 +1,5 @@
+#!/bin/bash
+for  run in `n=0;n<$1;n++`;
+do
+	echo `shuf -n 1 adjectives``shuf -n 1 nouns`;
+done
